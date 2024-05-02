@@ -172,3 +172,29 @@
     height: 40px;
     width: 40px;
 }
+
+.toAbout{
+    margin-left: 8%;
+}
+
+.toAbout a{
+    text-decoration:none;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+}
+
+.toAboutButton{
+    width:250px;
+    background-color: whitesmoke;
+    border: solid;
+    border-radius: 10px;
+}
+
+.toAboutButton img{
+    margin-left: 18px;
+}
+
+.toAboutButton span{
+    margin-left: 33px;
+}
