@@ -1,0 +1,150 @@
+.navbar{
+    background:url(Imagens/marmore.jpg)  white;
+    display: flex;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-between;
+    align-items:center;
+    border: 2px solid black;
+    height:10rem;
+}
+.navbar .navbar-logo img{
+       height: 10rem;
+       width: 10rem;
+       margin-left: 1rem;
+}
+.navbar-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-menu ul li{
+    margin-right: 2rem;
+    display: inline-block;
+}
+.navbar-list a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:black;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 19px;
+}
+.navbar-list a:hover{
+    color: gray;
+}
+.navbar .navbar-menu .navbar-mobile,
+.navbar .navbar-menu .navbar-mobile .mobile-list{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+.navbar .navbar-menu .navbar-list{
+    display: none; 
+}    
+.navbar .navbar-menu .navbar-mobile{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.navbar-mobile img{
+    height: 3rem;
+    width:3rem;
+    margin-right: 3rem;
+}
+.navbar-mobile.active img{
+    height: 3rem;
+    width:3rem;
+    margin-right: 3rem;
+}
+.navbar .navbar-menu .navbar-mobile.active .mobile-list{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 97.4%;
+    position: absolute;
+    top: 10.5rem;
+    left: 1.4%;
+    box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+    z-index:10;
+    border:1px solid black;
+}
+.navbar .navbar-menu .navbar-mobile.active .mobile-list li{
+    margin-right: 0;
+}
+.navbar .navbar-menu .navbar-mobile.active .mobile-list li a{
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.navbar .navbar-menu .navbar-mobile.active .mobile-list li a:hover{
+    background-color: beige;
+}
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+}
+.cabecalho .inicio-picture{
+    background-color: white;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+.cabecalho .inicio-picture img{
+    width: 20rem;
+    height:30rem;
+    border-radius: 10px;
+    /*display:none;*/
+}
+.cabecalho .inicio-presentation{
+    max-width: 40rem;
+    font-size: 25px;
+}
+.rodape-inicio{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.rodape-a3{
+    margin-right: 3rem;
+}
+.rodape-inicio .rodape-a1 ul{
+    list-style: none;
+}
+.rodape-inicio .rodape-a1 ul li{
+    margin-bottom: 1rem;
+}
+.rodape-inicio .rodape-a1 ul li img{
+    width:3rem;
+    height:3rem;
+}
+.rodape-inicio .rodape-a3 ul{
+    list-style: none;
+}
+.rodape-inicio .rodape-a3 ul li{
+    margin-bottom: 1rem;
+}
+.rodape-inicio .rodape-a3 ul li img{
+    width:3rem;
+    height:3rem;
+}
+.rodape-inicio .rodape-a2 ul{
+    list-style: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.rodape-inicio .rodape-a2 ul li{
+    display: inline-block;
+    margin-right:1rem;
+}
+.rodape-inicio .rodape-a2 ul li a{
+    color:black
+}
