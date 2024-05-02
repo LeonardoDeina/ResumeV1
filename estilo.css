@@ -148,3 +148,27 @@
 .rodape-inicio .rodape-a2 ul li a{
     color:black
 }
+
+.tec-app{
+    width:300px;
+    position: fixed;
+    bottom: 5px;
+    right:3px;
+}
+
+.tec-app ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tec-app li{
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.tec-app img{
+    height: 40px;
+    width: 40px;
+}
