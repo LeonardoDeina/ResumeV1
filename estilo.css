@@ -203,3 +203,46 @@
 .toAbout a:hover .toAboutButton{
     background-color: gray;
 }
+
+
+.Projects{
+    display: flex;
+    justify-content: center;
+    border:solid;
+    width: 700px;
+    /*overflow: hidden;*/
+    height:500px;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.Project{
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: flex-start;
+
+}
+
+.Projects img{
+    display: block;
+    height: 50%;
+    width: 100%;
+    align-self: flex-start;
+    border-bottom: solid;
+}
+
+.ProjectsArea{
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectDesc{
+    padding:10px;
+}
+
+.Projects h2{
+    font-size: 40px;
+}
