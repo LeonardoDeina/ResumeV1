@@ -211,12 +211,14 @@
 .Projects{
     display: flex;
     justify-content: center;
-    border:solid;
+    border:double 7px;
     width: 700px;
     /*overflow: hidden;*/
     height:450px;
     margin-top: 3%;
     background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .Project{
