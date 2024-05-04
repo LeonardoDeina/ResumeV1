@@ -11,7 +11,7 @@ button.addEventListener('click',function(){
 
 function changeProject (){
     let projetoAtual = 0;
-    const projects = document.querySelectorAll('.Projects > div');
+    const projects = document.querySelectorAll('.Projects .Project');
     const totalProjects = projects.length;
 
     function showProject(index) {
@@ -31,7 +31,7 @@ function changeProject (){
 
     showProject(projetoAtual);
 
-    setInterval(nextProject, 5000)
+    setInterval(nextProject, 3500)
 }
 
 document.addEventListener('DOMContentLoaded', changeProject);
