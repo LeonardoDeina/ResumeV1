@@ -31,7 +31,7 @@ function changeProject (){
 
     showProject(projetoAtual);
 
-    setInterval(nextProject, 10000)
+    setInterval(nextProject, 5000)
 }
 
 document.addEventListener('DOMContentLoaded', changeProject);
