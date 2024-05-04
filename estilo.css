@@ -211,7 +211,7 @@
     border:solid;
     width: 700px;
     /*overflow: hidden;*/
-    height:500px;
+    height:450px;
     margin-top: 3%;
     background-color: white;
 }
@@ -245,4 +245,56 @@
 
 .Projects h2{
     font-size: 40px;
+}
+
+.boardArea {
+    height:350px;
+    width: 100%;
+   /* border: solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.board {
+    /*border: solid;*/
+    height:400px;
+    width: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board li{
+    margin-top: 15%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skillsArea {
+    height:500px;
+    width: 100%;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.area1{
+    border: solid;
+    height: 300px;
+    width:40%;
+    background-color: white;
+}
+
+.area2{
+    border:solid;
+    height:300px;
+    width:40%;
+    background-color: white;
 }
